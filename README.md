@@ -1,12 +1,16 @@
-# Escuela App
+# School App
 
 ## _Implementation of a school system_
 - The Front-end is build with Angular.
 - The Back-end is build with spring boot microservices.
 
-##  System Diagram
+##  System Diagram : Shared DB 
 
-![Alt text](Img/Arq.png)
+![Alt text](Img/A2.png)
+
+## Second System Diagram : Distributed DB
+
+![Alt text](Img/A1.png)
 
 ## Tech
 Escuela App uses these repositories to work properly:
@@ -14,19 +18,16 @@ Escuela App uses these repositories to work properly:
 | REPOS | LINK |
 | ------ | ------ |
 | Angular | https://github.com/IvanCruzMoreno/Escuela-FrontEnd |
-| Eureka | https://github.com/IvanCruzMoreno/eureka_server |
-| Commons | https://github.com/IvanCruzMoreno/service_commons/tree/secondImplArc |
-| Cursos | https://github.com/IvanCruzMoreno/service_cursos/tree/secondImplArc |
-| Examenes | https://github.com/IvanCruzMoreno/service_examenes/tree/secondImplArc |
-| Gateway | https://github.com/IvanCruzMoreno/service_gateway |
-| Respuestas | https://github.com/IvanCruzMoreno/service_respuestas/tree/secondImplArc |
-| Usuarios | https://github.com/IvanCruzMoreno/service_alumno |
-| Zuul | https://github.com/IvanCruzMoreno/service_zuul |
+| Eureka | https://github.com/IvanCruzMoreno/microservice-eureka |
+| Commons | https://github.com/IvanCruzMoreno/microservice-commons |
+| Cursos | https://github.com/IvanCruzMoreno/microservice-cursos/tree/db_distribuidas |
+| Examenes | https://github.com/IvanCruzMoreno/microservice-examenes/tree/db_distribuidas |
+| Gateway | https://github.com/IvanCruzMoreno/microservice-gateway |
+| Respuestas | https://github.com/IvanCruzMoreno/microservice-respuestas/tree/db_distribuida |
+| Alumnos | https://github.com/IvanCruzMoreno/microservice-alumnos/tree/db_distribuidas |
+| Zuul | https://github.com/IvanCruzMoreno/microservice-zuul |
 
 _Notes:_ 
 - _You can use Zuul or Gateway_
-- _There are two implementations for the back-end, one is the master branch and the second is 'secondImplArc'. I used the secondImplArc._
+- _There are two implementations for the back-end, one is the master branch and the second is 'db_distribuidas'. I used the db_distribuidas._
 
-### _Second System Diagram_
-
-![Alt text](Img/Arq2.png)
